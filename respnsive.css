@@ -1,0 +1,62 @@
+@import url();
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    /* Background color */
+    --primary-color: #FD4766;
+    --Secondaire-color: #0e1525;
+    --bg-dark-color: #091020;
+    --bg-white: #fff;
+    --gray-color: #c5c9d8bf;
+    --gradient-color: linear-gradient( -224deg, var(--primary-color) 0, #337DFF 100%);
+    --gradient-text: linear-gradient(120beg, #1C99FE 20,69% var(--primary-color)79,69%);
+    filter: progid DXImageTranform Microsoft gradient(starcColorstr="var(--primary-color)",
+     endColorstr="var(--secondary-color)", GradientType=1);
+
+     /* Text Color */
+     --primary-font: "Poppins", sans-serif;
+     --primary-text: #FD4766;
+     --text-gray: #c6c9d8bf;
+     --text-white: #fff;
+}
+form{
+    margin-top: 40px;
+}
+nav{
+    background-color: gray;
+}
+input {
+    top: 40px;
+    width: 40%;
+    padding: 5px;
+    border-radius: 5PX;
+    color: #FD4766;
+}
+h2{
+    color: var(--primary-text);
+}
+.name input{
+width: 20%;
+}
+@media screen and (max-width: 600px){
+    input{
+        width: 80%;
+    }
+    .name input{
+        width: 40%;
+    }
+    .dive h3{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+   .sect
+    .container{
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+}

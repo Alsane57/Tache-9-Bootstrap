@@ -1,0 +1,161 @@
+/* general */
+@import url();
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    /* Background color */
+    --primary-color: #FD4766;
+    --Secondaire-color: #0e1525;
+    --bg-dark-color: #091020;
+    --bg-white: #fff;
+    --bg-success: #5cb85c;
+    --bg-dander: #d9534f;
+    --bg-primary: #0275d8;
+    --bg-warnning: #FFFF00; 
+    --gray-color: #c5c9d8bf;
+    --gradient-color: linear-gradient( -224deg, var(--primary-color) 0, #337DFF 100%);
+    --gradient-text: linear-gradient(120beg, #1C99FE 20,69% var(--primary-color)79,69%);
+    filter: progid DXImageTranform Microsoft gradient(starcColorstr="var(--primary-color)",
+     endColorstr="var(--secondary-color)", GradientType=1);
+
+     /* Text Color */
+     --primary-font: "Poppins", sans-serif;
+     --primary-text: #FD4766;
+     --text-gray: #c6c9d8bf;
+     --text-white: #fff;
+     --bg-primary: #0275d8;
+     --bg-warnning: #FFFF00; 
+     --bg-success: #5cb85c;
+     --bg-dark-color: #091020;
+     --bg-dander: #d9534f;
+
+}
+::-webkit-scrollbar{
+  width: 6px;
+}
+::-webkit-scrollbar-track{
+  background: var(--bg-dark-blue);
+}
+
+::-webkit-scrollbar-thumb{
+  background: var(--bg-dark-color);
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{ 
+  -webkit-apparance: none;
+  margin: 0;
+}
+header{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header_wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+.seach input{
+    border: 2px solid var(--bg-dander);
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px  5px 12px 30px ;
+}
+.nav-item .nav-link{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--bg-dander);
+}
+.header_wrapper .nav-item{
+    margin: 0 10px;
+}
+.header_wrapper .nav-item .nav-link{
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--bg-white);
+    display: inline-block;
+}
+.header_wrapper .nav-item .nav-link:hover::after{
+    width: 100%;  
+}
+.header_wrapper .nav-item .nav-link:active::after{
+    width: 100%; 
+}
+.header_wrapper .nav-item .nav-link:active{
+    color: var(--text-white);
+    content:'';
+    border-bottom: 2px solid var(--primary-color);    
+
+}
+.header_wrapper .nav-item .nav-link:hover{
+    color: var(--text-white);
+}
+.header_wrapper .nav-item .nav-link::after{
+    position: absolute;
+    content:'';
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    bottom: 0;
+    transition:  all.3s ease;
+}
+
+
+/* @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  } */
+.dive{
+    background-image: url(images/magasin-beaucoup-vetements-beaucoup-entre-eux_993259-2246.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 200px;
+    width: 100%;
+}
+/* .seach{
+    width: 25%;
+    border: 2PX solid gray;
+    border-radius: 20px;
+    padding: 5px  0px 5px 10px ;
+} */
+.nav-it{
+    border: 2PX solid tomato;
+    border-radius: 20px;
+    padding: 5px ;
+    background-color: var(--primary-color);
+    margin-left: 5px;
+}
+
+.main-btn{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    width: 100%;
+    margin-top: 15px;
+}
+.container a{
+    text-decoration: none;
+    color: var(--bg-dark-color);
+    
+}
+.container a:hover{
+    color: var(--bg-dark-color);
+}
+.di1v{
+    margin-top: 5px;
+}
+.Client{
+    border: 2px solid tomato;
+    padding: 50px 10px;
+}
+.parra{
+    border: 2px solid rgb(255, 156, 138);
+}
